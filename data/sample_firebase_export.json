@@ -1,0 +1,666 @@
+{
+  "patients": {
+    "patient_001": {
+      "profile": {
+        "name": "Test Patient",
+        "age": 58,
+        "condition": "post-operative cardiac monitoring",
+        "baseline_hr": 72,
+        "baseline_spo2": 97.5,
+        "baseline_temp": 36.6,
+        "baseline_established": true,
+        "caregiver_phone": "+27000000000"
+      },
+      "readings": {
+        "reading_007420": {
+          "timestamp": "2026-06-03T13:50:00",
+          "heart_rate_bpm": 76.5,
+          "spo2_percent": 96.9,
+          "temperature_c": 36.75,
+          "tinyml_classification": "normal",
+          "source": "simulated"
+        },
+        "reading_007421": {
+          "timestamp": "2026-06-03T13:50:30",
+          "heart_rate_bpm": 75.8,
+          "spo2_percent": 97.0,
+          "temperature_c": 36.85,
+          "tinyml_classification": "normal",
+          "source": "simulated"
+        },
+        "reading_007422": {
+          "timestamp": "2026-06-03T13:51:00",
+          "heart_rate_bpm": 74.1,
+          "spo2_percent": 97.1,
+          "temperature_c": 36.66,
+          "tinyml_classification": "normal",
+          "source": "simulated"
+        },
+        "reading_007423": {
+          "timestamp": "2026-06-03T13:51:30",
+          "heart_rate_bpm": 75.8,
+          "spo2_percent": 96.9,
+          "temperature_c": 36.85,
+          "tinyml_classification": "normal",
+          "source": "simulated"
+        },
+        "reading_007424": {
+          "timestamp": "2026-06-03T13:52:00",
+          "heart_rate_bpm": 74.5,
+          "spo2_percent": 97.4,
+          "temperature_c": 36.85,
+          "tinyml_classification": "normal",
+          "source": "simulated"
+        },
+        "reading_007425": {
+          "timestamp": "2026-06-03T13:52:30",
+          "heart_rate_bpm": 75.9,
+          "spo2_percent": 97.1,
+          "temperature_c": 36.99,
+          "tinyml_classification": "normal",
+          "source": "simulated"
+        },
+        "reading_007426": {
+          "timestamp": "2026-06-03T13:53:00",
+          "heart_rate_bpm": 71.8,
+          "spo2_percent": 97.4,
+          "temperature_c": 36.95,
+          "tinyml_classification": "normal",
+          "source": "simulated"
+        },
+        "reading_007427": {
+          "timestamp": "2026-06-03T13:53:30",
+          "heart_rate_bpm": 76.5,
+          "spo2_percent": 97.0,
+          "temperature_c": 36.78,
+          "tinyml_classification": "normal",
+          "source": "simulated"
+        },
+        "reading_007428": {
+          "timestamp": "2026-06-03T13:54:00",
+          "heart_rate_bpm": 73.5,
+          "spo2_percent": 97.8,
+          "temperature_c": 36.79,
+          "tinyml_classification": "normal",
+          "source": "simulated"
+        },
+        "reading_007429": {
+          "timestamp": "2026-06-03T13:54:30",
+          "heart_rate_bpm": 76.0,
+          "spo2_percent": 97.6,
+          "temperature_c": 37.1,
+          "tinyml_classification": "normal",
+          "source": "simulated"
+        },
+        "reading_007430": {
+          "timestamp": "2026-06-03T13:55:00",
+          "heart_rate_bpm": 76.1,
+          "spo2_percent": 97.1,
+          "temperature_c": 36.72,
+          "tinyml_classification": "watch",
+          "source": "simulated"
+        },
+        "reading_007431": {
+          "timestamp": "2026-06-03T13:55:30",
+          "heart_rate_bpm": 75.0,
+          "spo2_percent": 97.4,
+          "temperature_c": 36.64,
+          "tinyml_classification": "watch",
+          "source": "simulated"
+        },
+        "reading_007432": {
+          "timestamp": "2026-06-03T13:56:00",
+          "heart_rate_bpm": 74.1,
+          "spo2_percent": 97.6,
+          "temperature_c": 36.81,
+          "tinyml_classification": "watch",
+          "source": "simulated"
+        },
+        "reading_007433": {
+          "timestamp": "2026-06-03T13:56:30",
+          "heart_rate_bpm": 77.4,
+          "spo2_percent": 96.7,
+          "temperature_c": 36.93,
+          "tinyml_classification": "watch",
+          "source": "simulated"
+        },
+        "reading_007434": {
+          "timestamp": "2026-06-03T13:57:00",
+          "heart_rate_bpm": 77.3,
+          "spo2_percent": 98.0,
+          "temperature_c": 36.71,
+          "tinyml_classification": "watch",
+          "source": "simulated"
+        },
+        "reading_007435": {
+          "timestamp": "2026-06-03T13:57:30",
+          "heart_rate_bpm": 76.1,
+          "spo2_percent": 97.2,
+          "temperature_c": 36.72,
+          "tinyml_classification": "watch",
+          "source": "simulated"
+        },
+        "reading_007436": {
+          "timestamp": "2026-06-03T13:58:00",
+          "heart_rate_bpm": 74.7,
+          "spo2_percent": 97.0,
+          "temperature_c": 36.95,
+          "tinyml_classification": "watch",
+          "source": "simulated"
+        },
+        "reading_007437": {
+          "timestamp": "2026-06-03T13:58:30",
+          "heart_rate_bpm": 76.5,
+          "spo2_percent": 96.9,
+          "temperature_c": 36.79,
+          "tinyml_classification": "watch",
+          "source": "simulated"
+        },
+        "reading_007438": {
+          "timestamp": "2026-06-03T13:59:00",
+          "heart_rate_bpm": 74.7,
+          "spo2_percent": 97.5,
+          "temperature_c": 36.96,
+          "tinyml_classification": "watch",
+          "source": "simulated"
+        },
+        "reading_007439": {
+          "timestamp": "2026-06-03T13:59:30",
+          "heart_rate_bpm": 76.9,
+          "spo2_percent": 97.5,
+          "temperature_c": 36.83,
+          "tinyml_classification": "watch",
+          "source": "simulated"
+        },
+        "reading_007440": {
+          "timestamp": "2026-06-03T14:00:00",
+          "heart_rate_bpm": 72.7,
+          "spo2_percent": 98.1,
+          "temperature_c": 36.82,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007441": {
+          "timestamp": "2026-06-03T14:00:30",
+          "heart_rate_bpm": 82.1,
+          "spo2_percent": 97.6,
+          "temperature_c": 37.06,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007442": {
+          "timestamp": "2026-06-03T14:01:00",
+          "heart_rate_bpm": 83.0,
+          "spo2_percent": 96.8,
+          "temperature_c": 36.8,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007443": {
+          "timestamp": "2026-06-03T14:01:30",
+          "heart_rate_bpm": 84.9,
+          "spo2_percent": 97.1,
+          "temperature_c": 36.82,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007444": {
+          "timestamp": "2026-06-03T14:02:00",
+          "heart_rate_bpm": 86.2,
+          "spo2_percent": 97.5,
+          "temperature_c": 36.88,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007445": {
+          "timestamp": "2026-06-03T14:02:30",
+          "heart_rate_bpm": 90.3,
+          "spo2_percent": 98.5,
+          "temperature_c": 36.86,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007446": {
+          "timestamp": "2026-06-03T14:03:00",
+          "heart_rate_bpm": 98.9,
+          "spo2_percent": 96.7,
+          "temperature_c": 36.86,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007447": {
+          "timestamp": "2026-06-03T14:03:30",
+          "heart_rate_bpm": 98.3,
+          "spo2_percent": 97.9,
+          "temperature_c": 36.84,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007448": {
+          "timestamp": "2026-06-03T14:04:00",
+          "heart_rate_bpm": 96.4,
+          "spo2_percent": 98.3,
+          "temperature_c": 36.9,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007449": {
+          "timestamp": "2026-06-03T14:04:30",
+          "heart_rate_bpm": 109.7,
+          "spo2_percent": 97.6,
+          "temperature_c": 36.9,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007450": {
+          "timestamp": "2026-06-03T14:05:00",
+          "heart_rate_bpm": 104.2,
+          "spo2_percent": 97.6,
+          "temperature_c": 36.81,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007451": {
+          "timestamp": "2026-06-03T14:05:30",
+          "heart_rate_bpm": 110.2,
+          "spo2_percent": 97.1,
+          "temperature_c": 36.8,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007452": {
+          "timestamp": "2026-06-03T14:06:00",
+          "heart_rate_bpm": 112.4,
+          "spo2_percent": 98.1,
+          "temperature_c": 36.53,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007453": {
+          "timestamp": "2026-06-03T14:06:30",
+          "heart_rate_bpm": 113.8,
+          "spo2_percent": 97.5,
+          "temperature_c": 36.78,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007454": {
+          "timestamp": "2026-06-03T14:07:00",
+          "heart_rate_bpm": 118.2,
+          "spo2_percent": 97.0,
+          "temperature_c": 36.79,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007455": {
+          "timestamp": "2026-06-03T14:07:30",
+          "heart_rate_bpm": 112.0,
+          "spo2_percent": 96.8,
+          "temperature_c": 36.75,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007456": {
+          "timestamp": "2026-06-03T14:08:00",
+          "heart_rate_bpm": 116.5,
+          "spo2_percent": 97.5,
+          "temperature_c": 36.91,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007457": {
+          "timestamp": "2026-06-03T14:08:30",
+          "heart_rate_bpm": 120.8,
+          "spo2_percent": 96.8,
+          "temperature_c": 36.9,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007458": {
+          "timestamp": "2026-06-03T14:09:00",
+          "heart_rate_bpm": 113.2,
+          "spo2_percent": 97.8,
+          "temperature_c": 36.74,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007459": {
+          "timestamp": "2026-06-03T14:09:30",
+          "heart_rate_bpm": 121.9,
+          "spo2_percent": 97.3,
+          "temperature_c": 36.92,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007460": {
+          "timestamp": "2026-06-03T14:10:00",
+          "heart_rate_bpm": 122.6,
+          "spo2_percent": 97.5,
+          "temperature_c": 37.04,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007461": {
+          "timestamp": "2026-06-03T14:10:30",
+          "heart_rate_bpm": 116.1,
+          "spo2_percent": 97.0,
+          "temperature_c": 36.74,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007462": {
+          "timestamp": "2026-06-03T14:11:00",
+          "heart_rate_bpm": 117.4,
+          "spo2_percent": 97.1,
+          "temperature_c": 36.92,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007463": {
+          "timestamp": "2026-06-03T14:11:30",
+          "heart_rate_bpm": 122.6,
+          "spo2_percent": 97.3,
+          "temperature_c": 36.68,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007464": {
+          "timestamp": "2026-06-03T14:12:00",
+          "heart_rate_bpm": 119.0,
+          "spo2_percent": 97.3,
+          "temperature_c": 36.92,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007465": {
+          "timestamp": "2026-06-03T14:12:30",
+          "heart_rate_bpm": 116.2,
+          "spo2_percent": 97.3,
+          "temperature_c": 36.96,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007466": {
+          "timestamp": "2026-06-03T14:13:00",
+          "heart_rate_bpm": 116.2,
+          "spo2_percent": 96.4,
+          "temperature_c": 36.98,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007467": {
+          "timestamp": "2026-06-03T14:13:30",
+          "heart_rate_bpm": 114.6,
+          "spo2_percent": 97.9,
+          "temperature_c": 36.68,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007468": {
+          "timestamp": "2026-06-03T14:14:00",
+          "heart_rate_bpm": 114.4,
+          "spo2_percent": 97.1,
+          "temperature_c": 36.8,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007469": {
+          "timestamp": "2026-06-03T14:14:30",
+          "heart_rate_bpm": 108.8,
+          "spo2_percent": 98.0,
+          "temperature_c": 36.83,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007470": {
+          "timestamp": "2026-06-03T14:15:00",
+          "heart_rate_bpm": 110.0,
+          "spo2_percent": 97.5,
+          "temperature_c": 36.84,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007471": {
+          "timestamp": "2026-06-03T14:15:30",
+          "heart_rate_bpm": 101.4,
+          "spo2_percent": 98.4,
+          "temperature_c": 36.7,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007472": {
+          "timestamp": "2026-06-03T14:16:00",
+          "heart_rate_bpm": 104.2,
+          "spo2_percent": 97.7,
+          "temperature_c": 36.96,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007473": {
+          "timestamp": "2026-06-03T14:16:30",
+          "heart_rate_bpm": 100.9,
+          "spo2_percent": 97.4,
+          "temperature_c": 36.9,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007474": {
+          "timestamp": "2026-06-03T14:17:00",
+          "heart_rate_bpm": 100.0,
+          "spo2_percent": 97.5,
+          "temperature_c": 36.74,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007475": {
+          "timestamp": "2026-06-03T14:17:30",
+          "heart_rate_bpm": 92.0,
+          "spo2_percent": 96.8,
+          "temperature_c": 36.89,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007476": {
+          "timestamp": "2026-06-03T14:18:00",
+          "heart_rate_bpm": 92.5,
+          "spo2_percent": 97.4,
+          "temperature_c": 36.69,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007477": {
+          "timestamp": "2026-06-03T14:18:30",
+          "heart_rate_bpm": 88.9,
+          "spo2_percent": 96.6,
+          "temperature_c": 36.69,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007478": {
+          "timestamp": "2026-06-03T14:19:00",
+          "heart_rate_bpm": 82.0,
+          "spo2_percent": 97.6,
+          "temperature_c": 36.89,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007479": {
+          "timestamp": "2026-06-03T14:19:30",
+          "heart_rate_bpm": 76.2,
+          "spo2_percent": 98.4,
+          "temperature_c": 36.85,
+          "tinyml_classification": "alert",
+          "source": "simulated"
+        },
+        "reading_007480": {
+          "timestamp": "2026-06-03T14:20:00",
+          "heart_rate_bpm": 77.3,
+          "spo2_percent": 97.9,
+          "temperature_c": 36.72,
+          "tinyml_classification": "watch",
+          "source": "simulated"
+        },
+        "reading_007481": {
+          "timestamp": "2026-06-03T14:20:30",
+          "heart_rate_bpm": 74.9,
+          "spo2_percent": 98.6,
+          "temperature_c": 36.8,
+          "tinyml_classification": "watch",
+          "source": "simulated"
+        },
+        "reading_007482": {
+          "timestamp": "2026-06-03T14:21:00",
+          "heart_rate_bpm": 73.9,
+          "spo2_percent": 97.6,
+          "temperature_c": 36.8,
+          "tinyml_classification": "watch",
+          "source": "simulated"
+        },
+        "reading_007483": {
+          "timestamp": "2026-06-03T14:21:30",
+          "heart_rate_bpm": 73.7,
+          "spo2_percent": 97.3,
+          "temperature_c": 36.99,
+          "tinyml_classification": "watch",
+          "source": "simulated"
+        },
+        "reading_007484": {
+          "timestamp": "2026-06-03T14:22:00",
+          "heart_rate_bpm": 75.0,
+          "spo2_percent": 96.8,
+          "temperature_c": 36.69,
+          "tinyml_classification": "watch",
+          "source": "simulated"
+        },
+        "reading_007485": {
+          "timestamp": "2026-06-03T14:22:30",
+          "heart_rate_bpm": 79.7,
+          "spo2_percent": 97.4,
+          "temperature_c": 36.89,
+          "tinyml_classification": "watch",
+          "source": "simulated"
+        },
+        "reading_007486": {
+          "timestamp": "2026-06-03T14:23:00",
+          "heart_rate_bpm": 73.7,
+          "spo2_percent": 97.7,
+          "temperature_c": 36.99,
+          "tinyml_classification": "watch",
+          "source": "simulated"
+        },
+        "reading_007487": {
+          "timestamp": "2026-06-03T14:23:30",
+          "heart_rate_bpm": 73.9,
+          "spo2_percent": 97.7,
+          "temperature_c": 36.7,
+          "tinyml_classification": "watch",
+          "source": "simulated"
+        },
+        "reading_007488": {
+          "timestamp": "2026-06-03T14:24:00",
+          "heart_rate_bpm": 79.3,
+          "spo2_percent": 97.6,
+          "temperature_c": 36.8,
+          "tinyml_classification": "watch",
+          "source": "simulated"
+        },
+        "reading_007489": {
+          "timestamp": "2026-06-03T14:24:30",
+          "heart_rate_bpm": 74.6,
+          "spo2_percent": 97.2,
+          "temperature_c": 36.8,
+          "tinyml_classification": "watch",
+          "source": "simulated"
+        },
+        "reading_007490": {
+          "timestamp": "2026-06-03T14:25:00",
+          "heart_rate_bpm": 70.3,
+          "spo2_percent": 97.5,
+          "temperature_c": 36.83,
+          "tinyml_classification": "normal",
+          "source": "simulated"
+        },
+        "reading_007491": {
+          "timestamp": "2026-06-03T14:25:30",
+          "heart_rate_bpm": 76.2,
+          "spo2_percent": 97.2,
+          "temperature_c": 36.76,
+          "tinyml_classification": "normal",
+          "source": "simulated"
+        },
+        "reading_007492": {
+          "timestamp": "2026-06-03T14:26:00",
+          "heart_rate_bpm": 75.2,
+          "spo2_percent": 96.7,
+          "temperature_c": 36.86,
+          "tinyml_classification": "normal",
+          "source": "simulated"
+        },
+        "reading_007493": {
+          "timestamp": "2026-06-03T14:26:30",
+          "heart_rate_bpm": 71.5,
+          "spo2_percent": 98.1,
+          "temperature_c": 36.91,
+          "tinyml_classification": "normal",
+          "source": "simulated"
+        },
+        "reading_007494": {
+          "timestamp": "2026-06-03T14:27:00",
+          "heart_rate_bpm": 73.4,
+          "spo2_percent": 97.8,
+          "temperature_c": 36.85,
+          "tinyml_classification": "normal",
+          "source": "simulated"
+        },
+        "reading_007495": {
+          "timestamp": "2026-06-03T14:27:30",
+          "heart_rate_bpm": 73.2,
+          "spo2_percent": 96.5,
+          "temperature_c": 36.87,
+          "tinyml_classification": "normal",
+          "source": "simulated"
+        },
+        "reading_007496": {
+          "timestamp": "2026-06-03T14:28:00",
+          "heart_rate_bpm": 73.6,
+          "spo2_percent": 98.0,
+          "temperature_c": 36.84,
+          "tinyml_classification": "normal",
+          "source": "simulated"
+        },
+        "reading_007497": {
+          "timestamp": "2026-06-03T14:28:30",
+          "heart_rate_bpm": 73.8,
+          "spo2_percent": 98.4,
+          "temperature_c": 36.9,
+          "tinyml_classification": "normal",
+          "source": "simulated"
+        },
+        "reading_007498": {
+          "timestamp": "2026-06-03T14:29:00",
+          "heart_rate_bpm": 67.9,
+          "spo2_percent": 97.3,
+          "temperature_c": 36.7,
+          "tinyml_classification": "normal",
+          "source": "simulated"
+        },
+        "reading_007499": {
+          "timestamp": "2026-06-03T14:29:30",
+          "heart_rate_bpm": 73.6,
+          "spo2_percent": 97.4,
+          "temperature_c": 36.87,
+          "tinyml_classification": "normal",
+          "source": "simulated"
+        },
+        "reading_007500": {
+          "timestamp": "2026-06-03T14:30:00",
+          "heart_rate_bpm": 75.7,
+          "spo2_percent": 98.0,
+          "temperature_c": 36.9,
+          "tinyml_classification": "normal",
+          "source": "simulated"
+        }
+      }
+    }
+  }
+}

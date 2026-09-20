@@ -1,0 +1,6 @@
+ei-healthcare-iot-monitor-arduino-1.0.2-impulse-#1/
+ei-healthcare-iot-monitor-arduino-1.0.2-impulse-#1/
+healthcare-iot-monitoring-sys-servAcc-key.json
+__pycache__/
+*.pyc
+data/scored_readings.csv
